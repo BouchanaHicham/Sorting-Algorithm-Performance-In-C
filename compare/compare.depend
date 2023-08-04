@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1678317424 source:c:\users\hicha\desktop\m1_ia\sem_2\co\tp\compare\main.c
+	<stdio.h>
+	<time.h>
+
+1678317424 source:c:\users\hicha\desktop\m1_ia\sem_2\co\comparison_between_sorting_algorithmes\compare\main.c
+	<stdio.h>
+	<time.h>
+
