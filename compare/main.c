@@ -165,10 +165,38 @@ int main()
         */
 
     // ---------------------------------------------- [Prints] --------------------------------------------------------
-        printf("\n %d        |",sizes[itt]);
-        printf(" [%f]", time_taken_selection_sort);
-        printf("     | [%f]", time_taken_quick_sort);
-        printf(" | [%f]", time_taken_Merge_sort);
+
+        if (sizes[itt]>=1000 && sizes[itt]< 10000)
+        {
+            printf("\n %d       |",sizes[itt]);
+            printf(" [%f]", time_taken_selection_sort);
+            printf("     | [%f]", time_taken_quick_sort);
+            printf(" | [%f]", time_taken_Merge_sort);
+        }
+        else if (sizes[itt]>=10000 && sizes[itt]< 100000)
+        {
+            printf("\n %d      |",sizes[itt]);
+            printf(" [%f]", time_taken_selection_sort);
+            printf("     | [%f]", time_taken_quick_sort);
+            printf(" | [%f]", time_taken_Merge_sort);
+        }
+        else if (sizes[itt]>=100000 && sizes[itt]< 1000000)
+        {
+            printf("\n %d     |",sizes[itt]);
+            printf(" [%f]", time_taken_selection_sort);
+            printf("     | [%f]", time_taken_quick_sort);
+            printf(" | [%f]", time_taken_Merge_sort);
+        }
+        else
+        {
+            printf("\n %d        |",sizes[itt]);
+            printf(" [%f]", time_taken_selection_sort);
+            printf("     | [%f]", time_taken_quick_sort);
+            printf(" | [%f]", time_taken_Merge_sort);
+        }
+
+        // These Conditions are just so the columns are aligned below each other for better visualization
+
     }
     return 0;
 }
